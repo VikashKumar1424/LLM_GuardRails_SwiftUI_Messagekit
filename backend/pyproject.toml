@@ -1,0 +1,16 @@
+[project]
+name = "gemini-guardrails-api"
+version = "0.1.0"
+description = "FastAPI backend with Gemini 3.5 Flash guardrails"
+requires-python = ">=3.11"
+dependencies = [
+    "fastapi",
+    "uvicorn[standard]",
+    "pydantic",
+    "python-dotenv",
+    "langchain",
+    "langchain-google-genai",
+]
+
+[tool.uv]
+package = false
